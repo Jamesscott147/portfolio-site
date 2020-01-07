@@ -1,0 +1,813 @@
+/* --- overall style ---*/
+
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+body {
+    width: 100%;
+    max-width: 9600px;
+    
+}
+
+html, body {
+    scroll-behavior: smooth;
+   
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'red hat display', sans-serif;
+}
+
+h1 {
+    font-family: 'red hat display', sans-serif;
+}
+
+
+
+/* --- end of overall style ---*/
+
+/* --- Nav ---*/
+
+#nav {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#nav ul {
+    display: flex;
+    grid-column: 2/-1;
+    background-color: white;
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+#nav ul li {
+    
+    display: inline-block;
+    margin: 20px 25px 20px 25px ;
+    text-align: right;
+    font-family: 'red hat display', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+#nav a {
+        transition: ease-out, 0.3s;
+
+}
+
+#nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover{
+    color: #50B99F;
+    transition: ease-in, 0.3s; 
+}
+
+.links {
+    align-content:center;
+    float: right;
+    
+}
+
+.logo {
+    grid-column: 1/2;
+    float: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 5%;
+}
+
+.nav_logo2 {
+    display: none;
+}
+
+.nav_logo3 {
+    display: none;
+}
+
+
+/* --- end of Nav ---*/
+
+/* --- footer ---*/
+
+footer{
+    background-color:#50B99F;
+    height:auto;
+    width:auto;
+    display:grid;
+    grid-template-columns: 2fr auto 2fr;
+    
+}
+
+
+
+footer p {
+    text-align:left;
+    font-family: 'red hat display', sans-serif;
+    color: #112A39;
+    
+    
+}
+
+ footer ul {
+     
+    margin: 20px;
+    margin-left: 3em;
+    text-align:left;
+    color: black;
+   
+}
+
+footer ul li {
+    display:inline;
+    list-style-type: none;
+    margin: 5px 20px 0px 20px;
+}
+
+footer ul li p{
+   
+}
+
+.fcontact {
+    margin-top: 2em;
+    margin-bottom: 6em;
+    grid-column: 3;
+    align-content: center;
+    
+}
+
+.fcontact a {
+    text-decoration: none;
+    color: white;
+    transition: ease-out, 0.3s;
+
+}
+
+.fcontact a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+.fcontact h2 {
+    text-decoration: none;
+    color:#112A39; 
+}
+
+.fcontact p{
+    font-size: 0.8em;
+}
+
+.email {
+    color: #112A39 ;
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.fmedia h2 {
+    color: #112A39;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fmedia p {
+    margin-bottom: 0em;
+}
+
+.fmedia a {
+    color: #112A39;
+    text-decoration: none;
+        transition: ease-out, 0.2s;
+
+}
+
+.fmedia a:hover {
+    color: white;
+    transition: ease-in, 0.2s;
+    
+}
+
+
+
+/* --- end of footer ---*/
+
+/* --- home ---*/
+
+
+
+.content{
+    min-height: 769px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-content: center;
+    background-image: url(Images/Asset%206.png);
+    background-repeat: no-repeat, repeat;
+    background-size:contain;
+    }
+
+.content-text{
+    align-content: center;
+    justify-content: center;
+    margin: 0px 20px 0px 120px;
+    }
+
+.content-text h1 a{
+    color: #50B99F;
+}
+
+.content-text h1 a:hover {
+    color:#112A39; 
+    transition: ease-in, 0.2s;
+}
+
+.content button {
+    background-color:#EA4B34;
+    border: none;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    margin-top: 80px; 
+    border-radius:60px;
+    font-size: 2em;
+    font-family: 'roboto', sans-serif;
+    }
+
+.content a {
+    text-decoration: none;
+    color: #112A39;
+}
+
+.content a:hover {
+    color: white;
+    transition: ease-in, 0.2s;
+}
+
+
+.content h1 {
+    font-family: 'red hat display', 'sans-serif';
+    font-weight: 900;
+    grid-column: 2/2;
+    align-content: center;
+    justify-content: center;
+}
+
+.content h2 {
+    font-family: 'red hat display', sans-serif;
+    font-weight: 400;
+    grid-column: 2/2;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.content-text button{
+    
+    border-style: none;
+    background-color:#112A39;
+    color:#50B99F; 
+    font-family: 'roboto',sans-serif;
+    font-size: 1.5em;
+    padding:10px 20px 10px 20px;
+    width: auto;
+    border-radius:50px;
+}
+
+.content-text button:hover {
+    color: #112A39;
+    background-color:#50B99F;
+    transition: ease-in, 0.1s;
+    
+}
+
+
+.content-text a:hover {
+    color: #112A39;
+    
+}
+
+
+.content-text a{
+    text-decoration: none;
+    color:#50B99F; 
+}
+
+.content-text a:visited {
+    text-decoration: none;
+    color:none;
+}
+
+.home_image2 {
+    display: none;
+}
+
+.home_image3 {
+    display: none;
+}
+
+
+
+
+/* --- end of home ---*/
+
+/* --- about ---*/
+
+.about{
+    min-height: 769px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-content: center;
+    background-image: url(Images/aboutbckgrd.png);
+    
+    
+    
+}
+
+.about-img {
+    grid-column: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-info{
+    display: grid;
+   
+}
+
+.about-info a {
+    text-decoration: none;
+    color: #50B99F;
+}
+
+.about-info a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+.about-info h2 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.about-h2 {
+    grid-column: 1/-1;
+}
+
+.about-info p {
+    font-size: 20px;
+}
+
+.about-p {
+    grid-column: 1/-1;
+}
+
+
+
+.about ul{
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+
+
+.about ul li{
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+    align-content:;
+    text-align: center;
+    font-size:6px;
+    
+}
+
+.about ul li p{
+    font-size: 10px;
+}
+/* --- end of about ---*/
+
+/* --- work --- */
+
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Images/workbackground.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    overflow: hidden;
+    min-height: 926px;
+}
+
+.work h1{
+    font-size: 10em;
+    color:#112A39; 
+}
+
+.case-studies {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height:auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    grid-column: 2/12;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    grid-column: 2/12;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    grid-column: 2/12;
+    margin-bottom: 20px;
+    
+}
+
+button{
+    grid-column: 2/5;
+    border-style: none;
+    background-color:#112A39;
+    color:#50B99F; 
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    width: auto;
+    border-radius:50px;
+}
+
+.card button:hover {
+    color: #112A39;
+    background-color:#50B99F;
+    transition: ease-in, 0.1s;
+    
+}
+
+
+.card a:hover {
+    color: #112A39;
+    
+}
+
+
+.card a{
+    text-decoration: none;
+    color:#50B99F; 
+}
+
+.card a:visited {
+    text-decoration: none;
+    color:none;
+}
+
+.vault-coming {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+/* --- end of work ---*/
+
+/* --- contact ---*/
+
+.contact {
+    min-height: 926px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(Images/Asset%206.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact-info {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.contact-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* --- end of contact ---*/
+
+
+/* --- ipad screen size --- */
+
+@media (max-width: 1024px) {
+    
+    #nav {
+        font-size: 1.5em;
+    }
+    
+    .logo {
+        width: 100;
+    }
+    
+    .logo img {
+    width: 15%;
+}
+    
+    #footer {
+        
+        font-size: 1.4em;
+        
+    }
+    
+    .home_image1 {
+        display: none;
+    }
+    
+    .home_image2 {
+        display: block;
+    }
+    
+    
+    .content {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: none;
+}
+    
+    .content img {
+        margin-bottom: 10px;
+        margin: 60px auto;
+        width: 100%;
+        
+    }
+
+.content-text {
+    
+    margin:0px 200px 0px 200px;
+    padding-right: none;
+    grid-row: 2/ -1;
+}
+    
+    .content-text h1{
+        
+    }
+
+    
+    .content-text button{
+        display: flex;
+        margin: 100px auto;
+        margin-bottom: 125px;        
+        font-size: 2.5em;
+        padding: 20px;
+    }
+    
+    #footer {
+        
+        width:100%;
+        position:inherit;
+        bottom: 0;
+        left: 0;
+       
+    }
+    
+
+
+/* --- end of home ipad --- */
+
+/* --- about --- */
+
+.about {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
+    background-size:100%;
+    
+    }
+    
+    .about-img {
+        margin-top: 100px;
+    }
+    
+    .about-img {
+        
+    }
+    
+    .about-info {
+    margin:100px auto 240px auto;
+    padding-right: none;
+    grid-row: 2/ -1;
+    font-size: 1.2em;
+    
+    }
+    
+    .about-info p {
+    
+    }
+    
+
+
+.about-info ul{
+    display: none;
+}
+    
+
+/* --- end of tablet query ---*/    
+}
+/* --- end of tablet query ---*/    
+
+
+/* --- iphone query --- */
+
+/* --- iphone nav ---*/
+
+
+
+/* --- iphone home ---*/
+@media (max-width: 375px) {
+    
+    
+/* --- iphone nav ---*/
+    
+#nav {
+    margin: 0 auto;
+    width: 812px;
+}
+
+.logo img {
+    width: 20%;
+}
+    
+/* --- iphone home ---*/
+    
+     .content {
+    width:812px;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: none;
+}
+    
+    
+
+    
+    .home_image2 {
+        display: none;
+    
+    } 
+    
+    .home_image3 {
+        height:80%;
+        display:block;
+       
+        
+    
+    } 
+
+    
+    
+/* --- iphone footer --- */
+ #footer {
+        display: grid;
+        grid-template-columns:0;
+        grid-template-rows: 1fr 1fr;
+        width:815px;
+    
+        
+       }
+    
+footer ul {
+    padding:;
+    display: flex;
+    margin:0px auto;
+    
+    
+   
+}
+   
+    
+    .fcontact {
+        align-content: center;
+    }
+    
+
+footer ul li {
+    padding:;
+    display:inline;
+    list-style-type: none;
+    font-size: 2em;
+    margin: none;
+   
+}
+
+ .fmedia {
+     grid-row: 2/3;
+     align-content: center;
+     
+    }
+    
+    .fcontact {
+        margin: none;
+        padding: none;
+        align-content:center;
+    }
+
+
+    .fmedia {
+        
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
+/* --- work iphone ---*/
+
+    .work {
+        display: flex;
+        background-size: contain;
+        width:812px;
+        
+    }
+    
+    .case-studies {
+        display: grid;
+        grid-template-columns: none;
+        margin: 0 auto;
+        width: 805px;
+        padding: 0px;
+    }
+    
+    .case-studies p {
+        display: none;
+    }
+
+    .case-studies h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .card {
+        display: grid;
+        grid-template-columns:repeat(12, 1fr);
+        margin-bottom: 5rem;
+        align-items: center;
+    }
+    
+    button {
+        font-size:3rem;
+        align-items:center;
+        align-content: center;
+        width:600px;
+        grid-column: 2/12;
+    }
+    
+/* --- about iphone ---*/
+
+    .about {
+        width: 815px;
+        margin-bottom: 100px;
+    }
+    
+    .about img {
+        height: 100%;
+        
+    }
+    
+/* --- walk iphone ---*/
+    
+   
+    
+/* --- end of iphone screen size ---*/
+}
+/* --- end of iphone screen size ---*/
+

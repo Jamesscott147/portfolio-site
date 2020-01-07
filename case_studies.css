@@ -1,0 +1,555 @@
+/* --- overall styles ---*/
+
+ul li {
+    font-family: 'roboto', sans-serif;
+    list-style-type: none;
+}
+
+.back_to_work {
+    padding: 4rem 1rem;
+}
+
+.cs_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs_btn button{
+    border-style: none;
+    background-color:#112A39;
+    color:#50B99F; 
+    font-family: 'roboto',sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+    width: auto;
+    border-radius:50px;
+    transition: ease-out, 0.2s;
+
+}
+
+.cs_btn button a {
+    color: #50B99F;
+    text-decoration: none;
+}
+
+button:hover {
+    color:#112A39;
+    background-color: #50B99F;
+    transition: ease-in, 0.2s;
+}
+
+
+
+/* --- walk intro ---*/
+
+.intro_image {
+    height: 760px;
+    width: 100%;
+    overflow: hidden;
+    align-content:  center;
+    
+}
+
+.intro_image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* --- walk brief ---*/
+
+.brief {
+    display: grid;
+    height: auto;
+    grid-template-columns: 70% 30% ;
+    padding: 4rem 8rem;
+    
+
+}
+
+.brief > div {
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+/* --- end of brief ---*/
+
+/* --- walk research ---*/
+
+.research {
+    height: auto;
+    padding: 4rem 10rem;
+    margin: 4rem 0rem;
+    font-size: 1.2em;
+    background-color:;
+}
+
+.research a {
+    text-decoration: none;
+    color: #50B99F ;
+    transition: ease-out, 0.2s;
+}
+
+.research a:hover {
+    color: black;
+    transition: ease-in, 0.2s;
+}
+
+/* --- end of research ---*/
+
+/* --- sketch gallery ---*/
+
+.walksketch {
+    padding: 4rem 10rem;
+}
+
+.walksketch h2 {
+    font-size: 2em;
+}
+
+.sketch_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    
+}
+
+
+.gallery__img {
+    height: 100%;
+    width: 100%;
+    border-radius:1%;
+    object-fit: cover;
+}
+
+
+/* --- end of sketch ---*/
+
+/* --- prototype ---*/
+
+.walk_prototype {
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    padding: 4rem 10rem;
+    font-size: 1.2em;
+    background-color:;
+    
+}
+
+.walk_prototype img{
+    object-fit: contain;
+    border-radius: 2%;
+}
+
+/* --- end of pro
+
+/* --- walk final --- */
+
+.walkfinal {
+    padding: 4rem 10rem;
+}
+
+.final_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.final_gallery img {
+   object-fit: cover;
+}
+
+/* --- end of walk final ---*/
+
+
+
+/* --- black death ---*/
+
+.black_death > section {
+  padding: 4rem 10rem;
+}
+
+
+
+.blackdeath_intro{
+    margin: 0px;
+    
+}
+
+.blackdeath_intro img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* --- brief ---*/
+
+.blackdeath_brief {
+    display: grid;
+    height: auto;
+    grid-template-columns: 70% 30% ;
+    padding: 4rem 8rem;
+    background-color: #DF5B26;
+    color: white;
+    
+
+}
+
+.blackdeath_brief > div {
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+
+/* --- End of brief ---*/
+/* --- research ---*/
+
+
+
+/* --- End of research ---*/
+
+/* --- illustrations ---*/
+
+.blackdeath_illustrations {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 1.2em;
+    background-color: #DF5B26;
+    color: white;
+}
+
+.illustrations_info {
+    vertical-align: middle;
+}
+
+.illustration_gallery {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.illustration_gallery img{
+    height: 60%;
+    width: 60%;
+    object-fit: contain;
+}
+
+
+
+/* --- end of illustrations ---*/
+
+/* --- colours ---*/
+.blackdeath_colours {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 1.2em;
+}
+
+.blackdeath_colours img {
+    object-fit: contain;
+    height: 60%;
+    width: 60%;
+}
+
+.blackdeath_colours_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* --- end of colours ---*/
+
+/* --- infographic view ---*/
+.infographic_pdf {
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0rem;
+}
+
+.infographic_image img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.infographic_image {
+    padding: 0px;
+}
+
+.infographic_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infographic_text a {
+    text-decoration: none;
+    color: #50B99F ;
+    transition: ease-out, 0.2s;
+}
+
+.infographic_text a:hover {
+    color: black;
+    transition: ease-in, 0.2s;
+}
+
+
+/* --- end of infographic view ---*/
+
+
+
+
+/* --- Vualt music --- */
+
+/* --- vault intro ---*/
+
+.vault_intro img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* --- end of vault intro ---*/
+
+/* --- vault brief ---*/
+
+.vault_brief {
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 4rem 8rem;
+    font-size: 1.2em;
+}
+
+.vault_brief > div {
+    padding: 2em;
+}
+
+/* --- end of vault brief ---*/
+
+/* --- vault tshirt ---*/
+
+.vault_shirt {
+    
+    padding: 4rem 8rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 20px;
+}
+
+.vault_shirt > div {
+    
+}
+
+.vault_shirt > div > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+}
+
+.vault_long {
+    grid-column: 1/-1;
+}
+
+/* --- end of vault tshirt ---*/
+
+/* --- vault logo ---*/
+
+.vault_logo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 4rem 10rem;
+    font-size: 1.2em;
+}
+
+.vault_logo img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* --- end of vault logo ---*/
+
+/* --- vault word mark ---*/
+
+.vault_wordmark {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 4rem 10rem;
+    font-size: 1.2em;
+    background-color: #E73458;
+    color: white;
+}
+
+.vault_wordmark img {
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.vault_wm_info {
+    margin-top: 8em;
+}
+
+/* --- end of vault workmark ---*/
+
+/* --- vault music banner ---*/
+
+.vault_pattern {
+    height: 600px;
+}
+
+.vault_pattern img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* --- end of vault music banner ---*/
+
+/* --- responsive design ---*/
+
+/* --- ipad --- */
+
+
+
+/* --- iphone resize ---*/
+
+@media (max-width: 375px) {
+    
+/* --- black death ---*/
+    
+    .blackdeath_intro {
+        width:1135px;
+    }
+    
+    .blackdeath_brief {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem
+    }
+    
+    .research {
+        width: 815px;
+        font-size: 2.5rem;
+    }
+    
+    .blackdeath_illustrations {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2.5rem
+    }
+    
+    .illustration_gallery {
+        margin-top: 10rem;
+        
+    }
+    
+    .blackdeath_colours {
+        width: 815px;
+        font-size: 2.5rem;
+        display: grid;
+        grid-template-columns: none;
+    }
+    
+    .blackdeath_colours_image {
+        margin-top: 10rem;
+    }
+    
+    .infographic_pdf {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2.2rem;
+    }
+    
+    .back_to_work {
+        width: 815px;
+        font-size: 2.2rem
+    }
+    
+
+/* --- walk iphone ---*/
+     .intro{
+        width:1135px;
+    }
+    
+    .brief {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem;
+    }
+    
+    .walksketch {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem;
+    }
+    
+    .walk_prototype {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem;
+    }
+    
+    .walkfinal {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem;
+    }
+    
+/* --- vault iphone ---*/
+    .vault_intro {
+        width: 1135px;
+    }
+    
+    .vault_brief {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2rem;
+    }
+    
+    .vault_logo {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2.5rem;
+    }
+    
+    .vault_wordmark {
+        width: 815px;
+        display: grid;
+        grid-template-columns: none;
+        font-size: 2.5rem;
+    }
+    
+    .vault_pattern {
+        width: 1135px;
+        
+    }
+    
+    .vault_shirt {
+       width: 815px;
+        display: grid;
+        font-size: 2.5rem;
+        
+    }
+/* --- end of iphone query ---*/    
+}
+/* --- end of iphone query ---*/    
+
